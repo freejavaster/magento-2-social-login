@@ -658,7 +658,7 @@
 
 .btn-facebook {
     color: #fff;
-    background-color: #3b5998;
+    background-color: #4267b2;
     border-color: rgba(0, 0, 0, 0.2)
 }
 
@@ -691,13 +691,17 @@
 }
 
 .btn-facebook.disabled:hover, .btn-facebook[disabled]:hover, fieldset[disabled] .btn-facebook:hover, .btn-facebook.disabled:focus, .btn-facebook[disabled]:focus, fieldset[disabled] .btn-facebook:focus, .btn-facebook.disabled.focus, .btn-facebook[disabled].focus, fieldset[disabled] .btn-facebook.focus {
-    background-color: #3b5998;
+    background-color: #4267b2;
     border-color: rgba(0, 0, 0, 0.2)
 }
 
 .btn-facebook .badge {
-    color: #3b5998;
+    color: #4267b2;
     background-color: #fff
+}
+
+.btn-facebook .fa-facebook {
+    background: url("images/fb-logo.png") no-repeat;
 }
 
 .btn-flickr {
@@ -1502,4 +1506,8 @@
 
 .mfp-wrap {
     overflow: scroll;
+}
+
+.fa-facebook-f::before, .fa-facebook::before {
+    content: "" !important;
 }
